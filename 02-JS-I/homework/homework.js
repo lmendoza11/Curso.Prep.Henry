@@ -10,13 +10,13 @@ const nuevoNum = 5;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,6 +28,7 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+  srt = "hola";
   
 }
 
@@ -35,33 +36,51 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  x = 10;
+  y = 10;
+  suma =  x + y;
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  x = 20;
+  y = 10;
+  resta =  x - y;
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  x = 20;
+  y = 1;
+  multiplica =  x * y; 
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  x = 20;
+  y = 5;
+  divide =  x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-}
+  x = 20;
+  y = 5;
+  if (x == y) {
+
+    sonIguales = true; } else
+    {
+      sonIguales = false;
+    }
+  }
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -75,13 +94,30 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  
+  
+  if (num < 90) {
+
+    menosQueNoventa = true; } else
+    {
+      menosQueNoventa  = false;
+    }
+  
+
+
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num > 50) {
+
+    mayorQueCincuenta = true; } else
+    {
+      mayorQueCincuenta = false;
+    }
+    
 }
 
 function obtenerResto(x, y) {
