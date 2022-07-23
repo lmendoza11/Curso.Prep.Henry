@@ -1,6 +1,6 @@
 # Editor de Texto.
 
-Para poder escribir código que pueda ser interpretado por un lenguaje de programación, necesitamos utilizar un editor de texto.
+Para poder escribir código que pueda ser interpretado por un lenguaje de programación, necesitamos utilizar un editor de texto adecuado que te ayude hacer las tareas mas faciles.
 Hay varios. Puedes probarlos y elegir con el que te sientas más a gusto.
 
 A continuación van a ver una lista de algunos editores de textos populares:
